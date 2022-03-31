@@ -1,6 +1,5 @@
 .app--section {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   margin-top: 8rem;
   width: 100%;
@@ -73,6 +72,9 @@ h3 {
 @media screen and (max-width: 800px) {
   .card--section {
     margin-bottom: 5rem;
+  }
+  .card {
+      padding: 5px;
   }
   .card h1,
   h3 {
