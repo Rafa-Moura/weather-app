@@ -1,0 +1,70 @@
+.app--section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 8rem;
+    width: 100%;
+    padding: 0 50px;
+}
+
+form {
+    max-width: 800px;
+    width: 100% !important;
+    display: flex;
+    margin: 0 auto;
+}
+
+.form--section input {
+    height: 40px;
+    width:100%;
+    background-color: #f8f8f8;
+    border: none;
+    padding: 0 10px;
+    outline: none;
+}
+
+.form--section button {
+    width: 6rem;
+    border: 0;
+    background-color: rgb(53, 109, 228);
+    color: #fff;
+    cursor: pointer;
+}
+
+.form--section button:hover {
+    background-color: rgb(47, 83, 160);
+    color: #f8f8f8;
+}
+
+.card--section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+.card {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.card h1,h3 {
+    margin-top: 10px;
+}
+
+.card img {
+    margin: 0 auto;
+    max-width: 5rem;
+    width: 100%;
+}
