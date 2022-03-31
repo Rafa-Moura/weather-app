@@ -71,7 +71,11 @@ h3 {
 }
 
 @media screen and (max-width: 800px) {
-  .card h1,h3{
+  .card--section {
+    margin-bottom: 5rem;
+  }
+  .card h1,
+  h3 {
     font-size: 18px;
   }
 }
