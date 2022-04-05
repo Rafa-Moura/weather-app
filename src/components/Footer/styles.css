@@ -9,8 +9,6 @@ footer {
   justify-content: center;
   flex-direction: column;
   color: #fff;
-  position: absolute;
-  bottom: 0;
   padding: 20px 0;
   width: 100%;
 }
@@ -19,22 +17,4 @@ footer h4 {
   margin-bottom: 20px;
 }
 
-.social--medias {
-  display: flex;
-  align-items: center;
-}
 
-.social--medias a {
-  margin: 20px 10px;
-}
-
-.social--medias i{
-  font-size: 25px;
-  cursor: pointer;
-  transition: all ease-in-out 0.5;
-}
-
-.social--medias i:hover {
-  color: rgb(164, 164, 164);
-  transform: scale(1.3);
-}

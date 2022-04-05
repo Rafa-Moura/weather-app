@@ -6,7 +6,9 @@ function App() {
   return (
     <>
       <Navbar />
-      <FormSearch />
+      <div className="app--container">
+        <FormSearch />
+      </div>
       <Footer />
     </>
   );

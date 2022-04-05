@@ -8,15 +8,17 @@
 html,
 body,
 #root {
-  position: relative;
   font-size: 16px;
   font-family: "Raleway", sans-serif;
-  height: 100%;
   /* background-color: rgb(24, 38, 51); */
   background-image: url(./assets/img/bg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.app--container {
+  height: 80vh;
 }
 
 h1,
